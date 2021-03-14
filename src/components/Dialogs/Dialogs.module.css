@@ -1,0 +1,15 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 20px;
+}
+/* .dialogs_item{
+    
+}
+.dialogs_item .active{
+    color: gold;
+}
+.messages{}
+.messages .message{} */

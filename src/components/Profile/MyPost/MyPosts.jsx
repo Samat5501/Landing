@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../MyPost/MyPosts.css'
 import  s from './MyPosts.module.css'
 import Post from './Post/Post';
 
@@ -12,10 +11,10 @@ const MyPosts = () => {
           <button>Add</button>
         </div>
         <div className={s.posts}>
-         <Post/>
-         <Post/>
-         <Post/>
-         <Post/>
+         <Post message = "Hi, How are you?"/>
+         <Post message = "I'm Samat"/>
+         <Post message = "Hi, Nice to meet you"/>
+         <Post message = "Hi, Nice to meet you too"/>
       
        </div>
       </div>
